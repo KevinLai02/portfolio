@@ -1,15 +1,21 @@
-import Subtitle from "./components/Subtitle/Subtitle";
-import Title from "./components/Title/Title";
+import Subtitle from "../Subtitle/Subtitle";
+import Title from "../Title/Title";
 import { Button } from "../Button/Button";
 import { ArrowRight, Github, Linkedin } from "lucide-react";
 
 const Lobby = () => {
 	return (
 		<div className="flex flex-col items-center justify-center bg-black h-screen space-y-8">
-			<Title value="Building Digital Experiences" />
+			<Title className="text-6xl" value="Building Digital Experiences" />
 			<div>
-				<Subtitle value="Full-stack developer passionate about creating beautiful" />
-				<Subtitle value=", functional web applications with modern technologies." />
+				<Subtitle
+					className="text-2xl"
+					value="Full-stack developer passionate about creating beautiful"
+				/>
+				<Subtitle
+					className="text-2xl"
+					value=", functional web applications with modern technologies."
+				/>
 			</div>
 			<div className="flex space-x-6">
 				<a href="#project">
