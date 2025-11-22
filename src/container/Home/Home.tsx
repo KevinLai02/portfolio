@@ -1,5 +1,5 @@
 import Header from "~/components/Header/Header";
-import Lobby from "~/components/Lobby/Lobby";
+import Lobby from "~/container/Lobby/Lobby";
 
 export default function Home() {
 	return (

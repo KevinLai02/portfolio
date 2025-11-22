@@ -1,6 +1,6 @@
-import Subtitle from "../Subtitle/Subtitle";
-import Title from "../Title/Title";
-import { Button } from "../Button/Button";
+import Subtitle from "~/components/Subtitle/Subtitle";
+import Title from "~/components/Title/Title";
+import { Button } from "~/components/Button/Button";
 import { ArrowRight, Github, Linkedin } from "lucide-react";
 
 const Lobby = () => {
