@@ -34,10 +34,18 @@ const Lobby = () => {
 				</a>
 			</div>
 			<div className="flex space-x-6">
-				<a href="https://github.com/KevinLai02">
+				<a
+					href="https://github.com/KevinLai02"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<Github className="h-7 w-7 text-zinc-400 hover:text-zinc-100" />
 				</a>
-				<a href="https://www.linkedin.com/in/hong-yu-lai-615769327/">
+				<a
+					href="https://www.linkedin.com/in/hong-yu-lai-615769327/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<Linkedin className="h-7 w-7 text-zinc-400 hover:text-zinc-100" />
 				</a>
 			</div>
