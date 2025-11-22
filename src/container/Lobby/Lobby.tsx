@@ -5,7 +5,10 @@ import { ArrowRight, Github, Linkedin } from "lucide-react";
 
 const Lobby = () => {
 	return (
-		<div className="flex flex-col items-center justify-center bg-black h-screen space-y-8">
+		<div
+			id="lobby"
+			className="flex flex-col items-center justify-center bg-black h-screen space-y-8"
+		>
 			<Title className="text-6xl" value="Building Digital Experiences" />
 			<div>
 				<Subtitle

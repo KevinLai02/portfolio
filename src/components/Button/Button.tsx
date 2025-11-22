@@ -2,7 +2,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import type { ButtonHTMLAttributes, FC } from "react";
 import { cn } from "~/lib/utils";
 
-const buttonVariants = cva("rounded-lg text-sm cursor-pointer", {
+const buttonVariants = cva("rounded-lg text-sm cursor-pointer font-bold", {
 	variants: {
 		variant: {
 			primary:
