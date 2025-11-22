@@ -3,7 +3,7 @@ import Title from "./components/Title/Title";
 
 const Header = () => {
 	return (
-		<div className="flex bg-black items-center justify-between px-12 absolute w-full top-0 py-3">
+		<div className="fixed flex bg-black/30 items-center justify-between px-12 absolute w-full top-0 py-3 backdrop-blur-xl border-b border-white/10">
 			<Title value="Kevin Lai" targetId="home" />
 			<div>
 				<LinkText value="Project" targetId="project" />
