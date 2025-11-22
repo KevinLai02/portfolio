@@ -10,7 +10,7 @@ const Project = () => {
 			id="project"
 			className="flex flex-col items-center justify-center bg-zinc-950 min-h-screen space-y-8 pb-10 pt-25"
 		>
-			<div className="px-5">
+			<div className="px-5 space-y-8">
 				<Title className="text-5xl" value="Featured Projects" />
 				<div>
 					<Subtitle
