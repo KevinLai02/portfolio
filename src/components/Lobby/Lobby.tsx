@@ -5,10 +5,13 @@ import { ArrowRight, Github, Linkedin } from "lucide-react";
 
 const Lobby = () => {
 	return (
-		<div className="bg-black h-screen">
+		<div className="flex flex-col items-center justify-center bg-black h-screen space-y-8">
 			<Title value="Building Digital Experiences" />
-			<Subtitle value="Full-stack developer passionate about creating beautiful, functional web applications with modern technologies." />
-			<div className="flex">
+			<div>
+				<Subtitle value="Full-stack developer passionate about creating beautiful" />
+				<Subtitle value=", functional web applications with modern technologies." />
+			</div>
+			<div className="flex space-x-6">
 				<a href="#project">
 					<Button className="flex items-center justify-center">
 						View My Work <ArrowRight className="ml-3 h-4 w-4" />{" "}
@@ -18,7 +21,7 @@ const Lobby = () => {
 					<Button variant="secondary">Get in Touch</Button>
 				</a>
 			</div>
-			<div className="flex">
+			<div className="flex space-x-6">
 				<a href="https://github.com/KevinLai02">
 					<Github className="h-7 w-7 text-zinc-400 hover:text-zinc-100" />
 				</a>
