@@ -1,11 +1,15 @@
 import LinkText from "./components/LinkText/LinkText";
+import Title from "./components/Title/Title";
 
 const Header = () => {
 	return (
-		<div className="flex bg-black">
-			<LinkText value="Project" targetId="project" />
-			<LinkText value="Skill" targetId="skill" />
-			<LinkText value="Contact" targetId="contact" />
+		<div className="flex bg-black items-center justify-between px-4">
+			<Title value="Kevin Lai" targetId="home" />
+			<div>
+				<LinkText value="Project" targetId="project" />
+				<LinkText value="Skill" targetId="skill" />
+				<LinkText value="Contact" targetId="contact" />
+			</div>
 		</div>
 	);
 };

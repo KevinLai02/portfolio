@@ -1,5 +1,14 @@
-const Title = () => {
-	return <div></div>;
+import type { Props } from "./types";
+
+const Title = ({ value, targetId }: Props) => {
+	return (
+		<a
+			className="text-lg py-4 px-5 outline-none text-white"
+			href={`#${targetId}`}
+		>
+			{value}
+		</a>
+	);
 };
 
 export default Title;
