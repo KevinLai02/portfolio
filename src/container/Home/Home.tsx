@@ -1,9 +1,11 @@
 import Header from "~/components/Header/Header";
+import Lobby from "~/components/Lobby/Lobby";
 
 export default function Home() {
 	return (
 		<div className="min-h-screen items-center justify-center bg-zinc-50">
 			<Header />
+			<Lobby />
 		</div>
 	);
 }
