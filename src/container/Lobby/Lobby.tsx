@@ -7,22 +7,25 @@ const Lobby = () => {
 	return (
 		<div
 			id="lobby"
-			className="flex flex-col items-center justify-center bg-black space-y-10 min-h-screen pt-10"
+			className="flex flex-col items-center justify-center bg-black space-y-10 min-h-screen pt-10 px-5"
 		>
-			<Title className="text-6xl" value="Building Digital Experiences" />
+			<Title
+				className="text-4xl sm:text-6xl"
+				value="Building Digital Experiences"
+			/>
 			<div>
 				<Subtitle
-					className="text-2xl"
+					className="text-lg sm:text-2xl"
 					value="Full-stack developer passionate about creating beautiful"
 				/>
 				<Subtitle
-					className="text-2xl"
+					className="text-lg sm:text-2xl"
 					value=", functional web applications with modern technologies."
 				/>
 			</div>
 			<div className="flex space-x-6">
 				<a href="#project">
-					<Button className="flex items-center justify-center">
+					<Button className="flex items-center justify-center text-xs sm:text-base">
 						View My Work <ArrowRight className="ml-3 h-4 w-4" />{" "}
 					</Button>
 				</a>
