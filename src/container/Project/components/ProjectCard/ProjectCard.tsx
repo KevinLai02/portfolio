@@ -12,7 +12,7 @@ const ProjectCard = ({
 	children,
 }: Props) => {
 	return (
-		<div className="border border-zinc-700 rounded-xl overflow-hidden max-w-130 min-w-80 max-h-200 pt-6 group">
+		<div className="border border-zinc-800 rounded-xl overflow-hidden max-w-130 min-w-80 max-h-200 pt-6 group">
 			<Image
 				src={imageUrl}
 				alt=""
@@ -21,15 +21,15 @@ const ProjectCard = ({
 				height={0}
 				sizes="100vw"
 			/>
-			<div className="px-4 py-6">
+			<div className="px-5 py-6 space-y-4">
 				<div className="flex justify-between">
 					<Title value={title} className="text-xl" />
 					<a href={projectUrl} target="_blank">
 						<ExternalLink className="h-6 w-6 text-zinc-400 hover:text-zinc-100" />
 					</a>
 				</div>
-				<Subtitle value={description} />
-				<div className="gird gird-row-4 gap-4">{children}</div>
+				<Subtitle className="text-sm" value={description} />
+				<div className="flex flex-wrap gap-3">{children}</div>
 			</div>
 		</div>
 	);

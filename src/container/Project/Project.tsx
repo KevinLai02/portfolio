@@ -2,6 +2,7 @@ import Subtitle from "~/components/Subtitle/Subtitle";
 import Title from "~/components/Title/Title";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 import { projectList } from "./constants";
+import Tag from "./components/Tag/Tag";
 
 const Project = () => {
 	return (
@@ -28,7 +29,11 @@ const Project = () => {
 						description={project.description}
 						imageUrl={project.imageUrl}
 						projectUrl={project.projectUrl}
-					/>
+					>
+						{project.tags.map((tag) => (
+							<Tag key={tag.id} value={tag.name} />
+						))}
+					</ProjectCard>
 				))}
 			</div>
 		</div>
