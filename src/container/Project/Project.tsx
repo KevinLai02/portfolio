@@ -8,9 +8,9 @@ const Project = () => {
 	return (
 		<div
 			id="project"
-			className="flex flex-col items-center justify-center bg-zinc-950 min-h-screen space-y-8 pb-10 pt-25"
+			className="flex flex-col items-center justify-center bg-zinc-950/95 min-h-screen space-y-8 pb-10 pt-25 px-5"
 		>
-			<div className="px-5 space-y-8">
+			<div className="space-y-8">
 				<Title className="text-5xl" value="Featured Projects" />
 				<div>
 					<Subtitle
@@ -23,7 +23,7 @@ const Project = () => {
 					/>
 				</div>
 			</div>
-			<div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-10 px-4">
+			<div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-10">
 				{projectList.map((project) => (
 					<ProjectCard
 						key={project.id}

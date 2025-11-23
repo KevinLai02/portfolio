@@ -7,7 +7,7 @@ const Lobby = () => {
 	return (
 		<div
 			id="lobby"
-			className="flex flex-col items-center justify-center bg-black space-y-10 min-h-screen pt-10 px-5"
+			className="flex flex-col items-center justify-center bg-zinc-950 space-y-10 min-h-screen pt-10 px-5"
 		>
 			<Title
 				className="text-4xl sm:text-6xl"
