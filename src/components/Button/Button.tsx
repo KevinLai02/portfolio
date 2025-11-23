@@ -11,7 +11,7 @@ const buttonVariants = cva("rounded-lg text-sm cursor-pointer font-bold", {
 				"bg-black border border-zinc-700 text-white transition duration-500 hover:bg-violet-400 hover:text-black",
 		},
 		size: {
-			default: "px-6 py-3",
+			default: "px-4 sm:px-6 py-3",
 		},
 	},
 	defaultVariants: {
