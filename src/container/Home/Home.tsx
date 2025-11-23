@@ -1,6 +1,7 @@
 import Header from "~/components/Header/Header";
-import Lobby from "~/container/Lobby/Lobby";
+import Lobby from "../Lobby/Lobby";
 import Project from "../Project/Project";
+import Skill from "../Skill/Skill";
 
 export default function Home() {
 	return (
@@ -8,6 +9,7 @@ export default function Home() {
 			<Header />
 			<Lobby />
 			<Project />
+			<Skill />
 		</div>
 	);
 }
