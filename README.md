@@ -4,8 +4,8 @@ A modern, responsive personal portfolio built with **Next.js**, showcasing my pr
 
 This site highlights my work in React ecosystem, real-time communication, full-stack development, and UI engineering.  
 
-🔗 **Live Site:** https://your-portfolio-url.com  
-🔗 **Contact:** your-email@example.com
+🔗 **Live Site:** https://portfolio-theta-wine-47.vercel.app/ 
+🔗 **Contact:** jihn.smith629@gmail.com
 
 ---
 
