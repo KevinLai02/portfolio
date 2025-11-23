@@ -11,14 +11,14 @@ const Project = () => {
 			className="flex flex-col items-center justify-center bg-zinc-950/95 min-h-screen space-y-8 pb-10 pt-25 px-5"
 		>
 			<div className="space-y-8">
-				<Title className="text-5xl" value="Featured Projects" />
+				<Title className="text-3xl sm:text-5xl" value="Featured Projects" />
 				<div>
 					<Subtitle
-						className="text-xl"
+						className="text-lg sm:text-xl"
 						value="A selection of recent projects showcasing my skills"
 					/>
 					<Subtitle
-						className="text-xl"
+						className="text-lg sm:text-xl"
 						value="in web development, design, and problem-solving."
 					/>
 				</div>
