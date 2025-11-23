@@ -12,11 +12,11 @@ const ProjectCard = ({
 	children,
 }: Props) => {
 	return (
-		<div className="border border-zinc-800 rounded-xl overflow-hidden max-w-130 min-w-80 max-h-200 pt-6 group">
+		<div className="border border-zinc-800 rounded-xl overflow-hidden max-w-130 min-w-80 max-h-200 py-6 group">
 			<Image
 				src={imageUrl}
 				alt=""
-				className="w-full h-full max-h-60 group-hover:scale-105 duration-300"
+				className="w-full h-full max-h-45 sm:max-h-60 group-hover:scale-105 duration-300"
 				width={0}
 				height={0}
 				sizes="100vw"

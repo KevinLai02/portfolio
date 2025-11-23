@@ -23,7 +23,7 @@ const Project = () => {
 					/>
 				</div>
 			</div>
-			<div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-10">
+			<div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-5">
 				{projectList.map((project) => (
 					<ProjectCard
 						key={project.id}
