@@ -9,7 +9,7 @@ const Contact = () => {
 			id="contact"
 			className="flex flex-col items-center justify-center bg-zinc-950/95 min-h-screen pb-10 pt-25 px-5"
 		>
-			<div className="space-y-2">
+			<div className="flex flex-col items-center space-y-2">
 				<Title className="text-3xl sm:text-5xl" value="Get In Touch" />
 
 				<Subtitle
