@@ -3,7 +3,7 @@ export const projectList = [
 		id: 0,
 		title: "Codehelp",
 		description:
-			"A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+			"A full-stack Q&A platform designed with secure user authentication, role-based access control, real-time features, and dynamic content management. Built with modern web technologies and optimized for usability, scalability, and responsive performance.",
 		projectUrl: "https://codehelp-web.vercel.app/en",
 		imageUrl: "/codehelpPic.png",
 		tags: [
@@ -22,7 +22,7 @@ export const projectList = [
 		id: 1,
 		title: "Onlyface",
 		description:
-			"A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+			"A curated mobile app that uses selfie-based onboarding and community-driven appearance verification to build an exclusive, visually-verified network. The app features secure authentication, a streamlined user flow, and a scalable approval system designed to maintain a high-quality community.",
 		projectUrl: "https://www.onlyface.app/",
 		imageUrl: "/onlyfacePic.png",
 		tags: [
