@@ -10,7 +10,7 @@ const Project = () => {
 			id="project"
 			className="flex flex-col items-center justify-center bg-zinc-950/95 min-h-screen space-y-8 pb-10 pt-25 px-5"
 		>
-			<div className="space-y-8">
+			<div className="space-y-2">
 				<Title className="text-3xl sm:text-5xl" value="Featured Projects" />
 				<div>
 					<Subtitle
@@ -23,7 +23,7 @@ const Project = () => {
 					/>
 				</div>
 			</div>
-			<div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-5">
+			<div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8">
 				{projectList.map((project) => (
 					<ProjectCard
 						key={project.id}

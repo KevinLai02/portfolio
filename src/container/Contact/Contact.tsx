@@ -9,12 +9,14 @@ const Contact = () => {
 			id="contact"
 			className="flex flex-col items-center justify-center bg-zinc-950/95 min-h-screen pb-10 pt-25 px-5"
 		>
-			<Title className="text-3xl sm:text-5xl" value="Get In Touch" />
+			<div className="space-y-2">
+				<Title className="text-3xl sm:text-5xl" value="Get In Touch" />
 
-			<Subtitle
-				className="text-lg sm:text-xl mt-3"
-				value="Have a project in mind or want to collaborate? Feel free to reach out!"
-			/>
+				<Subtitle
+					className="text-lg sm:text-xl"
+					value="Have a project in mind or want to collaborate? Feel free to reach out!"
+				/>
+			</div>
 			<div className="space-y-8 mt-8">
 				<ContactCard
 					title="Email"

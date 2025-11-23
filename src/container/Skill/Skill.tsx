@@ -10,10 +10,10 @@ const Skill = () => {
 			className="min-h-screen flex flex-col items-center justify-center bg-zinc-950 px-4 pt-25 pb-10"
 			id="skill"
 		>
-			<div>
+			<div className="space-y-2">
 				<Title className="text-3xl sm:text-5xl" value="Skills & Technologies" />
 				<Subtitle
-					className="text-lg sm:text-xl mt-2"
+					className="text-lg sm:text-xl"
 					value="Tools and technologies I use to bring ideas to life."
 				/>
 			</div>
